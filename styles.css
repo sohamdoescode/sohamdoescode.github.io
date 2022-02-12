@@ -52,26 +52,71 @@ h1 {
      color: var(--secondary-text-color);
      top: 45%;
 }
-/*
-.text {
-     color: rgb(255, 255, 255);
-     font-family: "Poppins", sans-serif;
-     font-size: 100px;
+
+#social-media {
      position: absolute;
-     top: 35%;
-     left: 50%;
-     -ms-transform: translate(-50%, -50%);
-     transform: translate(-50%, -50%);
-     transform: translate(-50%, -50%);
+     bottom: 33%;
+     font-size: 35px;
 }
-.text1 {
-     color: rgb(210, 210, 210);
-     font-family: "Poppins", sans-serif;
-     font-size: 18px;
-     position: absolute;
-     top: 56%;
-     left: 50%;
-     -ms-transform: translate(-50%, -50%);
-     transform: translate(-50%, -50%);
+a {
+     text-decoration: none;
+     color: var(--secondary-text-color);
 }
-*/
+a:visited {
+     text-decoration: none;
+     color: var(--secondary-text-color);
+}
+a:hover {
+     text-decoration: none;
+     color: var(--secondary-text-color);
+}
+a:focus {
+     text-decoration: none;
+     color: var(--secondary-text-color);
+}
+a:hover,
+a:active {
+     text-decoration: none;
+     color: var(--secondary-text-color);
+}
+
+.fa-github {
+     color: var(--secondary-text-color);
+}
+.fa-github:hover {
+     color: #5970d4;
+     transition: ease-in-out 0.3s;
+}
+
+.fa-twitter {
+     color: var(--secondary-text-color);
+}
+.fa-twitter:hover {
+     color: #00acee;
+     transition: ease-in-out 0.3s;
+}
+
+.fa-instagram {
+     color: var(--secondary-text-color);
+}
+.fa-instagram:hover {
+     color: #bc2a8d;
+     transition: ease-in-out 0.3s;
+}
+
+.fa-discord {
+     color: var(--secondary-text-color);
+}
+
+.fa-discord:hover {
+     color: #5865f2;
+     transition: ease-in-out 0.3s;
+}
+
+.fa-youtube-play {
+     color: var(--secondary-text-color);
+}
+.fa-youtube-play:hover {
+     color: #ff0000;
+     transition: ease-in-out 0.3s;
+}
