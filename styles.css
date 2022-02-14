@@ -45,6 +45,10 @@ h1 {
      position: absolute;
 }
 
+h1:hover {
+     cursor: crosshair;
+}
+
 #coming-soon {
      position: absolute;
      font-size: 35px;
@@ -85,38 +89,42 @@ a:active {
 }
 .fa-github:hover {
      color: #5970d4;
-     transition: ease-in-out 0.3s;
+     transition: ease-in 0.2s;
 }
 
 .fa-twitter {
      color: var(--secondary-text-color);
+     transition: ease-in 0.2s;
 }
 .fa-twitter:hover {
      color: #00acee;
-     transition: ease-in-out 0.3s;
+     transition: ease-in 0.2s;
 }
 
 .fa-instagram {
      color: var(--secondary-text-color);
+     transition: ease-in 0.2s;
 }
 .fa-instagram:hover {
      color: #bc2a8d;
-     transition: ease-in-out 0.3s;
+     transition: ease-in 0.2s;
 }
 
 .fa-discord {
      color: var(--secondary-text-color);
+     transition: ease-in 0.2s;
 }
 
 .fa-discord:hover {
      color: #5865f2;
-     transition: ease-in-out 0.3s;
+     transition: ease-in 0.2s;
 }
 
 .fa-youtube-play {
      color: var(--secondary-text-color);
+     transition: ease-in 0.2s;
 }
 .fa-youtube-play:hover {
      color: #ff0000;
-     transition: ease-in-out 0.3s;
+     transition: ease-in 0.2s;
 }
