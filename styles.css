@@ -45,10 +45,6 @@ h1 {
      position: absolute;
 }
 
-h1:hover {
-     cursor: crosshair;
-}
-
 #coming-soon {
      position: absolute;
      font-size: 35px;
