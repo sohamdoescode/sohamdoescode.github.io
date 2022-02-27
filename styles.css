@@ -41,7 +41,15 @@ h1 {
      font-size: 100px;
      color: var(--primary-text-color);
      font-family: var(--font);
-     top: 20%;
+     top: 15%;
+     position: absolute;
+}
+
+h3 {
+     font-size: 30px;
+     color: var(--secondary-text-color);
+     font-family: var(--font);
+     top: 50%;
      position: absolute;
 }
 
@@ -50,12 +58,12 @@ h1 {
      font-size: 35px;
      font-family: var(--font);
      color: var(--secondary-text-color);
-     top: 45%;
+     top: 40%;
 }
 
 #social-media {
      position: absolute;
-     bottom: 33%;
+     bottom: 30%;
      font-size: 35px;
 }
 a {
