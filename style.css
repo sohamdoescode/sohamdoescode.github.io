@@ -16,7 +16,6 @@ body {
     border: 2px solid black;
     max-width: 750px;
     margin: auto;
-    margin-bottom: 5px;
     font-family: Poppins, sans-serif;
     background-color: black;
     border-radius: 10px;
@@ -25,7 +24,7 @@ body {
 .links__item :hover {
     background-color: white;
     color: black;
-    letter-spacing: 3px;
+    letter-spacing: 1.5px;
     font-weight: bolder;
 }
 
