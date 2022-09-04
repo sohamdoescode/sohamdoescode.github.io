@@ -3,7 +3,10 @@ body {
     min-height: 100vh;
     height: auto;
     text-align: center;
-    background-color: white;
+    background-image: url("https://studywithme.io/aesthetic-pomodoro-timer/8c50f8e334f43eee3272.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
 }
 
 .links__item {
@@ -12,19 +15,18 @@ body {
     line-height: 2.5;
     text-decoration: none;
     transition: all 0.1s ease-in-out;
-    color: white;
-    border: 2px solid black;
+    color: #4a9ec5;
+    border: 2px solid #1b233d;
     max-width: 750px;
     margin: auto;
     font-family: Poppins, sans-serif;
-    background-color: black;
+    background-color: #1b233d;
     border-radius: 10px;
 }
 
 .links__item :hover {
-    background-color: white;
-    color: black;
-    letter-spacing: 1.5px;
+    background-color: #4a9ec5;
+    color: #1b233d;
     font-weight: bolder;
 }
 
@@ -40,4 +42,10 @@ body {
     margin-top: 60px;
     margin-bottom: 50px;
     border-radius: 50%;
+    border: 5px solid #1b233d;
+    transition: all 0.1s ease-in-out;
+}
+
+.logo:hover {
+    border: 5px solid #4a9ec5;
 }
