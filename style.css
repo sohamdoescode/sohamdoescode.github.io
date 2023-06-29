@@ -7,9 +7,12 @@ body {
     background-position: center;
     background-size: cover;
     margin: 0;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
 }
 
 .links__item {
@@ -19,33 +22,43 @@ body {
     text-decoration: none;
     transition: all 0.2s ease-in-out;
     color: #000000;
-    border: 2px solid #ffffff;
+    border: 2px solid #ffffff00;
     max-width: 750px;
     margin: auto;
     font-family: DM Serif Display, sans-serif;
     background-color: #ffffff;
-    border-radius: 10px;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    border-radius: 30px;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
 }
 
 .links__item :hover {
-    background-color: #f7f7f7;
+    background-color: #f1f1f1;
     color: #000000;
-    border: 2px solid #f7f7f7;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    border: 2px solid #ffffff00;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    letter-spacing: 0.5px;
+    /* Standard syntax */
 }
 
 #mylinks {
     font-family: DM Serif Display, sans-serif;
     font-size: 10vw;
     margin-top: 1vw;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
 }
 
 .logo {
@@ -55,9 +68,12 @@ body {
     margin-bottom: 60px;
     border-radius: 50%;
     transition: all 0.1s ease-in-out;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
 }
 
 .subtitle {
@@ -65,7 +81,10 @@ body {
     color: #ffffff;
     font-family: sans-serif;
     margin-bottom: 30px;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
 }
