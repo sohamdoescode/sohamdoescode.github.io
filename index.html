@@ -19,78 +19,43 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 		/>
+		<!--Favicon-->
 		<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
 		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
 		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
 		<link rel="manifest" href="assets/site.webmanifest" />
+		<!--Icons-->
+		<script src="https://kit.fontawesome.com/25037ff87a.js" crossorigin="anonymous"></script>
 	</head>
 	<body onload="typeNow()">
 		<h1 class="header">Soham Bhattacharyya</h1>
-		<script>
-			const words = [
-				"Full Stack Developer",
-				"Graphic Designer",
-				"Community Manager",
-			];
-			let i = 0;
-			let counter;
-			function typeNow() {
-				let word = words[i].split("");
-				var loopTyping = function () {
-					if (word.length > 0) {
-						document.getElementById("typer").innerHTML += word.shift();
-					} else {
-						deleteNow();
-						return false;
-					}
-					counter = setTimeout(loopTyping, 150);
-				};
-				loopTyping();
-			}
-			function deleteNow() {
-				let word = words[i].split("");
-				var loopDeleting = function () {
-					if (word.length > 0) {
-						word.pop();
-						document.getElementById("typer").innerHTML = word.join("");
-					} else {
-						if (words.length > i + 1) {
-							i++;
-						} else {
-							i = 0;
-						}
-						typeNow();
-						return false;
-					}
-					counter = setTimeout(loopDeleting, 100);
-				};
-				loopDeleting();
-			}
-			typeNow();
+		<script src="script.js">
 		</script>
+		<div class="subtitle-container">
 		<h3 class="subtitle" id="typer"></h3>
+	</div>
 		<!--<p class="subtitle">Soham Bhattacharyya</p>-->
 		<div class="links">
 			<div class="links__item">
 				<a class="links__item" href="https://github.com/sohamdoescode/" target="_blank"
-					>Github</a
+					><i class="fa-brands fa-github"></i>&nbsp;Github</a
 				>
 			</div>
 			<br />
 			<div class="links__item">
 				<a class="links__item" href="https://twitter.com/soham_here" target="_blank"
-					>Twitter</a
+					><i class="fa-brands fa-square-x-twitter"></i>&nbsp;Twitter</a
 				>
 			</div>
 			<br />
 			<div class="links__item">
-				<a class="links__item" href="https://www.instagram.com/soham.1511_/" target="_blank"
-					>Instagram</a
+				<a class="links__item" href="https://www.linkedin.com/in/soham-bhattacharyya-5679b527a/" target="_blank"
+					><i class="fa-brands fa-linkedin"></i>&nbsp;LinkedIn</a
 				>
 			</div>
 			<br />
 			<div class="links__item">
-				<a class="links__item" href="mailto:soham.bhattacharyya@outlook.com">E-mail</a>
+				<a class="links__item" href="mailto:soham.bhattacharyya@outlook.com"><i class="fa-solid fa-envelope"></i>&nbsp;Contact</a>
 			</div>
 		</div>
 	</body>
