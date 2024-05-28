@@ -1,12 +1,11 @@
 body {
-    background: black;
-    max-width: 100%;
-    min-height: 100vh;
-    height: auto;
+    /*max-width: 100%;
+    min-height: 100vh;*/
+    /*height: auto;*/
     text-align: center;
     /*background-image: url("./assets/bg_3.jpg");*/
-    background-position: center;
-    background-size: cover;
+    /*background-position: center;
+    background-size: cover;*/
     margin: 0;
     -webkit-user-select: none;
     /* Safari */
@@ -14,6 +13,10 @@ body {
     /* IE 10 and IE 11 */
     user-select: none;
     /* Standard syntax */
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
 }
 
 .links__item {
@@ -22,8 +25,8 @@ body {
     line-height: 2.5;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
-    border: 2px solid #30d7d4;
-    background-color: #30d7d4;
+    border: 2px solid #ffffff;
+    background: #ffffff;
     color: black;
     max-width: 750px;
     margin: auto;
@@ -38,15 +41,15 @@ body {
 }
 
 .links__item :hover {
-    background-color: black;
-    color: white;
-    border: 2px solid #30d7d4;
+    background: rgba(218, 218, 218, 0.186);
+    color: rgb(0, 0, 0);
     -webkit-user-select: none;
     /* Safari */
     -ms-user-select: none;
     /* IE 10 and IE 11 */
     user-select: none;
     /* Standard syntax */
+    letter-spacing: 0.5px;
 }
 
 #mylinks {
@@ -59,6 +62,16 @@ body {
     /* IE 10 and IE 11 */
     user-select: none;
     /* Standard syntax */
+}
+
+.links {
+    position: inherit;
+}
+
+.subtitle-container {
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .logo {
@@ -94,5 +107,17 @@ body {
     font-size: 30px;
     margin-top: 10px;
     padding-bottom: 50px;
-    color: #30d7d4;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
