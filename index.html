@@ -1,66 +1,63 @@
 <!doctype html>
-<html>
+<html lang="en">
 	<head>
-		<meta charset="utf8" />
+		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Soham's Links</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
-			rel="stylesheet"
-		/>
 		<link rel="stylesheet" href="style.css" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 		/>
-		<!--Favicon-->
-		<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
-		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
-		<link rel="manifest" href="assets/site.webmanifest" />
-		<!--Icons-->
-		<script src="https://kit.fontawesome.com/25037ff87a.js" crossorigin="anonymous"></script>
+		<script
+			src="https://kit.fontawesome.com/25037ff87a.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
-	<body onload="typeNow()">
-		<h1 class="header">Soham Bhattacharyya</h1>
-		<script src="script.js"></script>
-		<div class="subtitle-container">
-			<h3 class="subtitle" id="typer"></h3>
-		</div>
-		<!--<p class="subtitle">Soham Bhattacharyya</p>-->
-		<div class="links">
-			<div class="links__item">
-				<a class="links__item" href="https://github.com/sohamdoescode/" target="_blank"
-					><i class="fa-brands fa-github"></i>&nbsp;Github</a
-				>
-			</div>
-			<br />
-			<div class="links__item">
-				<a class="links__item" href="https://twitter.com/soham_here" target="_blank"
-					><i class="fa-brands fa-square-x-twitter"></i>&nbsp;Twitter</a
-				>
-			</div>
-			<br />
-			<div class="links__item">
+	<body>
+		<video id="background-video" autoplay loop muted>
+			<source src="assets/bgvideo.mp4" type="video/mp4" />
+		</video>
+		<div class="background"></div>
+		<div class="glass">
+			<h1>Soham Bhattacharyya</h1>
+			<h2><span class="auto-type"></span></h2>
+
+			<div class="button-container">
 				<a
-					class="links__item"
+					href="https://github.com/sohamdoescode/"
+					target="_blank"
+					class="button discord"
+				>
+					<i class="fa-brands fa-github"></i> Github
+				</a>
+				<a
+					href="https://twitter.com/soham_here"
+					target="_blank"
+					class="button instagram"
+				>
+					<i class="fa-brands fa-square-x-twitter"></i> Twitter
+				</a>
+				<a
 					href="https://www.linkedin.com/in/soham-bhattacharyya-5679b527a/"
 					target="_blank"
-					><i class="fa-brands fa-linkedin"></i>&nbsp;LinkedIn</a
+					class="button youtube"
 				>
-			</div>
-			<br />
-			<div class="links__item">
-				<a class="links__item" href="mailto:soham.bhattacharyya@outlook.com"
-					><i class="fa-solid fa-envelope"></i>&nbsp;Contact</a
+					<i class="fa-brands fa-linkedin"></i> LinkedIn
+				</a>
+				<a
+					href="mailto:soham.bhattacharyya@outlook.com"
+					target="_blank"
+					class="button contact"
 				>
+					<i class="fa-solid fa-envelope"></i> Contact
+				</a>
 			</div>
 		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script src="script.js"></script>
 	</body>
 </html>

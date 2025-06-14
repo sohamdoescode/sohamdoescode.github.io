@@ -1,113 +1,23 @@
-body {
-    /*max-width: 100%;
-    min-height: 100vh;*/
-    /*height: auto;*/
-    text-align: center;
-    /*background-image: url("./assets/bg_3.jpg");*/
-    /*background-position: center;
-    background-size: cover;*/
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body,
+html {
     margin: 0;
-    -webkit-user-select: none;
-    /* Safari */
-    -ms-user-select: none;
-    /* IE 10 and IE 11 */
-    user-select: none;
-    /* Standard syntax */
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    height: 100vh;
+    padding: 0;
+    height: 100%;
+    font-family: 'Jetbrains Mono', sans-serif;
+    overflow: hidden;
 }
 
-.links__item {
-    display: block;
-    font-size: 20px;
-    line-height: 2.5;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-    border: 2px solid #ffffff;
-    background: #ffffff;
-    color: black;
-    max-width: 750px;
-    margin: auto;
-    font-family: "Jetbrains Mono", monospace;
-    border-radius: 30px;
-    -webkit-user-select: none;
-    /* Safari */
-    -ms-user-select: none;
-    /* IE 10 and IE 11 */
-    user-select: none;
-    /* Standard syntax */
-}
-
-.links__item :hover {
-    background: rgba(218, 218, 218, 0.186);
-    color: rgb(0, 0, 0);
-    -webkit-user-select: none;
-    /* Safari */
-    -ms-user-select: none;
-    /* IE 10 and IE 11 */
-    user-select: none;
-    /* Standard syntax */
-    letter-spacing: 0.5px;
-}
-
-#mylinks {
-    font-family: DM Serif Display, sans-serif;
-    font-size: 10vw;
-    margin-top: 1vw;
-    -webkit-user-select: none;
-    /* Safari */
-    -ms-user-select: none;
-    /* IE 10 and IE 11 */
-    user-select: none;
-    /* Standard syntax */
-}
-
-.links {
-    position: inherit;
-}
-
-.subtitle-container {
-    height: 100px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-.logo {
-    width: 100px;
-    height: 100px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    border-radius: 50%;
-    transition: all 0.1s ease-in-out;
-    -webkit-user-select: none;
-    /* Safari */
-    -ms-user-select: none;
-    /* IE 10 and IE 11 */
-    user-select: none;
-    /* Standard syntax */
-}
-
-
-
-.header {
-    color: white;
-    font-family: "Jetbrains Mono", monospace;
-    font-weight: 600;
-    padding-top: 60px;
-    font-size: 50px;
-    margin-bottom: 0px;
-}
-
-.subtitle {
-    color: white;
-    font-family: "Jetbrains Mono", monospace;
-    font-weight: 200;
-    font-size: 30px;
-    margin-top: 10px;
-    padding-bottom: 50px;
-
+/*
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, #ff00cc, #3333ff, #00ffff);
+    background-size: 600% 600%;
+    animation: gradient 20s ease infinite;
+    z-index: -2;
 }
 
 @keyframes gradient {
@@ -122,4 +32,91 @@ body {
     100% {
         background-position: 0% 50%;
     }
+}
+    */
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.glass {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
+    padding: 40px;
+    text-align: center;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    transition: transform 0.3s ease, background 0.3s ease;
+    opacity: 0.9;
+}
+
+.button i {
+    font-size: 1.2rem;
+}
+
+.button.discord {
+    background: #ffffff;
+}
+
+.button.instagram {
+    background: #ffffff
+}
+
+.button.youtube {
+    background: #ffffff;
+}
+
+.button.contact {
+    background: #ffffff;
+}
+
+.button:hover {
+    transform: scale(1.02);
 }
